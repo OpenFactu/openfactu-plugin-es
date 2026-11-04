@@ -1,0 +1,5 @@
+node_modules/
+dist/
+*.log
+# Resultado de `npm run build`: lo genera cada despliegue.
+index.js

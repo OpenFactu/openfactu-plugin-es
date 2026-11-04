@@ -1,0 +1,19 @@
+[
+  { "kind": "sales_revenue", "code": "700000" },
+  { "kind": "tax_output", "code": "477000" },
+  { "kind": "customer_receivable", "code": "430000" },
+  { "kind": "withholding_receivable", "code": "473000" },
+  { "kind": "purchase_expense", "code": "600000" },
+  { "kind": "tax_input", "code": "472000" },
+  { "kind": "supplier_payable", "code": "400000" },
+  { "kind": "withholding_payable", "code": "4751000" },
+  { "kind": "cash", "code": "570000" },
+  { "kind": "bank", "code": "572000" },
+  { "kind": "payroll_gross", "code": "640000" },
+  { "kind": "payroll_income_tax", "code": "4751000" },
+  { "kind": "payroll_social_employee", "code": "476000" },
+  { "kind": "payroll_social_employer", "code": "642000" },
+  { "kind": "payroll_net", "code": "465000" },
+  { "kind": "retained_earnings", "code": "120000" },
+  { "kind": "result", "code": "129000" }
+]

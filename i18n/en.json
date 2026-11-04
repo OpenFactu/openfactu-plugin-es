@@ -1,0 +1,31 @@
+{
+  "plugins": {
+    "es": {
+      "name": "Spain",
+      "description": "Spanish regulations: VAT, withholdings, PGC chart of accounts, payroll (IRPF and Social Security) and VAT book.",
+      "libroIva": {
+        "title": "VAT book",
+        "description": "Output and input VAT for Form 303.",
+        "subtitle": "Output and input VAT",
+        "output": "Output VAT (sales)",
+        "outputTotal": "TOTAL OUTPUT",
+        "outputRow": "Output VAT",
+        "input": "Input VAT (purchases)",
+        "inputTotal": "TOTAL INPUT",
+        "inputRow": "Input VAT",
+        "result": "Result",
+        "balance": "To pay / (to offset)",
+        "col": {
+          "date": "Date",
+          "code": "Invoice no.",
+          "taxId": "Tax ID",
+          "partner": "Customer/Supplier",
+          "base": "Base",
+          "tax": "VAT amount",
+          "total": "Total",
+          "amount": "Amount"
+        }
+      }
+    }
+  }
+}

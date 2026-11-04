@@ -1,0 +1,45 @@
+[
+  { "code": "F1", "name": "Factura normal", "docCategory": "invoice", "sortOrder": 10 },
+  { "code": "F2", "name": "Factura simplificada", "docCategory": "ticket", "sortOrder": 20 },
+  {
+    "code": "F3",
+    "name": "Factura emitida en sustitución de facturas simplificadas",
+    "docCategory": "invoice",
+    "sortOrder": 30
+  },
+  {
+    "code": "R1",
+    "name": "Factura rectificativa (art. 80.1 y 80.2)",
+    "docCategory": "credit_note",
+    "isRectify": true,
+    "sortOrder": 40
+  },
+  {
+    "code": "R2",
+    "name": "Factura rectificativa (art. 80.3)",
+    "docCategory": "credit_note",
+    "isRectify": true,
+    "sortOrder": 50
+  },
+  {
+    "code": "R3",
+    "name": "Factura rectificativa (art. 80.4)",
+    "docCategory": "credit_note",
+    "isRectify": true,
+    "sortOrder": 60
+  },
+  {
+    "code": "R4",
+    "name": "Factura rectificativa (resto de causas)",
+    "docCategory": "credit_note",
+    "isRectify": true,
+    "sortOrder": 70
+  },
+  {
+    "code": "R5",
+    "name": "Factura rectificativa en facturas simplificadas",
+    "docCategory": "credit_note",
+    "isRectify": true,
+    "sortOrder": 80
+  }
+]

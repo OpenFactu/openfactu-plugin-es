@@ -1,0 +1,31 @@
+{
+  "plugins": {
+    "es": {
+      "name": "España",
+      "description": "Normativa española: IVA, retenciones, plan contable PGC, nómina (IRPF y Seguridad Social) y Libro de IVA.",
+      "libroIva": {
+        "title": "Libro de IVA",
+        "description": "IVA repercutido y soportado para el modelo 303.",
+        "subtitle": "IVA repercutido y soportado",
+        "output": "IVA Repercutido (ventas)",
+        "outputTotal": "TOTAL REPERCUTIDO",
+        "outputRow": "IVA Repercutido",
+        "input": "IVA Soportado (compras)",
+        "inputTotal": "TOTAL SOPORTADO",
+        "inputRow": "IVA Soportado",
+        "result": "Resultado",
+        "balance": "A ingresar / (a compensar)",
+        "col": {
+          "date": "Fecha",
+          "code": "Nº Factura",
+          "taxId": "NIF",
+          "partner": "Cliente/Proveedor",
+          "base": "Base",
+          "tax": "Cuota IVA",
+          "total": "Total",
+          "amount": "Importe"
+        }
+      }
+    }
+  }
+}

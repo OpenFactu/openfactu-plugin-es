@@ -1,0 +1,18 @@
+{
+  "name": "openfactu-plugin-es",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Normativa española para Keirost.",
+  "scripts": {
+    "build": "esbuild index.ts --bundle --platform=node --format=cjs --outfile=index.js",
+    "validate": "openfactu-validate-pack .",
+    "test": "node --require ts-node/register/transpile-only --test tests/*.test.ts"
+  },
+  "devDependencies": {
+    "@openfactu/plugin-sdk": "^0.5.0",
+    "esbuild": "^0.28.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "license": "MIT"
+}

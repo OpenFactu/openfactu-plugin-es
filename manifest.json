@@ -1,0 +1,11 @@
+{
+  "name": "plugins.es.name",
+  "version": "1.0.0",
+  "description": "plugins.es.description",
+  "author": "OpenFactu",
+  "logo": "Landmark",
+  "ui": {
+    "routes": [],
+    "menuItems": []
+  }
+}

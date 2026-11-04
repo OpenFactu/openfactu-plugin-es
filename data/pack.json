@@ -1,0 +1,7 @@
+{
+  "id": "es",
+  "name": "plugins.es.name",
+  "version": "1.0.0",
+  "countries": ["ES"],
+  "adoption": { "taxCodePrefixes": ["IVA"] }
+}

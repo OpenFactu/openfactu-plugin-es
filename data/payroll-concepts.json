@@ -1,0 +1,60 @@
+[
+  { "code": "SB", "name": "Salario base", "kind": "devengo", "calculation": "fixed" },
+  { "code": "PLUS_CONV", "name": "Plus convenio", "kind": "devengo", "calculation": "fixed" },
+  {
+    "code": "PLUS_TRANSP",
+    "name": "Plus transporte",
+    "kind": "devengo",
+    "calculation": "fixed",
+    "taxableIncomeTax": false,
+    "taxableSocial": false
+  },
+  { "code": "PLUS_PROD", "name": "Plus productividad", "kind": "devengo", "calculation": "fixed" },
+  {
+    "code": "DIETAS",
+    "name": "Dietas",
+    "kind": "devengo",
+    "calculation": "fixed",
+    "taxableIncomeTax": false,
+    "taxableSocial": false
+  },
+  { "code": "HORAS_EXTRA", "name": "Horas extra", "kind": "devengo", "calculation": "per_hour" },
+  {
+    "code": "IRPF",
+    "name": "Retención IRPF",
+    "kind": "deduccion",
+    "calculation": "percent_of_base",
+    "defaultPercent": 15,
+    "category": "income_tax",
+    "taxableIncomeTax": false,
+    "taxableSocial": false
+  },
+  {
+    "code": "SS_EMP",
+    "name": "Seguridad Social Empleado",
+    "kind": "deduccion",
+    "calculation": "percent_of_base",
+    "defaultPercent": 6.35,
+    "category": "social_employee",
+    "taxableIncomeTax": false,
+    "taxableSocial": false
+  },
+  {
+    "code": "ANTICIPO",
+    "name": "Anticipo",
+    "kind": "deduccion",
+    "calculation": "fixed",
+    "taxableIncomeTax": false,
+    "taxableSocial": false
+  },
+  {
+    "code": "SS_EMPRESA",
+    "name": "Seguridad Social Empresa",
+    "kind": "aportacion_empresa",
+    "calculation": "percent_of_base",
+    "defaultPercent": 29.9,
+    "category": "social_employer",
+    "taxableIncomeTax": false,
+    "taxableSocial": false
+  }
+]

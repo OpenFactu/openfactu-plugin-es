@@ -1,0 +1,22 @@
+[
+  { "code": "430000", "name": "Clientes", "type": "asset" },
+  { "code": "570000", "name": "Caja", "type": "asset" },
+  { "code": "572000", "name": "Bancos", "type": "asset" },
+  { "code": "472000", "name": "HP IVA Soportado", "type": "asset" },
+  { "code": "473000", "name": "HP Retenciones y pagos a cuenta", "type": "asset" },
+  { "code": "4751000", "name": "HP Acreedora IRPF", "type": "asset" },
+  { "code": "400000", "name": "Proveedores", "type": "liability" },
+  { "code": "410000", "name": "Acreedores por servicios", "type": "liability" },
+  { "code": "477000", "name": "HP IVA Repercutido", "type": "liability" },
+  { "code": "465000", "name": "Remuneraciones pendientes", "type": "liability" },
+  { "code": "476000", "name": "Seguridad Social acreedora", "type": "liability" },
+  { "code": "100000", "name": "Capital social", "type": "equity" },
+  { "code": "120000", "name": "Reservas", "type": "equity" },
+  { "code": "129000", "name": "Resultado del ejercicio", "type": "equity" },
+  { "code": "700000", "name": "Ventas de mercaderías", "type": "income" },
+  { "code": "705000", "name": "Prestación de servicios", "type": "income" },
+  { "code": "600000", "name": "Compras de mercaderías", "type": "expense" },
+  { "code": "629000", "name": "Otros servicios", "type": "expense" },
+  { "code": "640000", "name": "Sueldos y salarios", "type": "expense" },
+  { "code": "642000", "name": "Seguridad Social a cargo empresa", "type": "expense" }
+]

@@ -1,0 +1,18 @@
+{
+  "es": {
+    "tax": "IVA",
+    "taxId": "CIF/NIF",
+    "withholding": "Retención IRPF",
+    "incomeTax": "Retención IRPF",
+    "socialEmployee": "Seguridad Social trabajador",
+    "socialEmployer": "Seguridad Social a cargo de la empresa"
+  },
+  "en": {
+    "tax": "VAT",
+    "taxId": "Tax ID",
+    "withholding": "Withholding (IRPF)",
+    "incomeTax": "Income tax withholding (IRPF)",
+    "socialEmployee": "Employee Social Security",
+    "socialEmployer": "Employer Social Security"
+  }
+}
